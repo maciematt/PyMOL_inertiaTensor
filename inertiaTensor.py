@@ -1,10 +1,10 @@
-# by Mateusz Maciejewski, August 2010
+# by Mateusz Maciejewski (matt@mattmaciejewski.com), August 2010
 # This script will draw the eigenvectors of the inertia tensor of selection.
 # It should be placed in the same folder as the pdb for which the analysis
 # is carried out. In PyMOL the script can be loaded by issuing 
 # "run inertiaTensor.py". Then it can be used within PyMOL via the tensor
 # command, e.g.:
-# cmd.tensor(molecule_object, name="tensor", resids="24-65+78-122", atoms="n+ca+c")
+# tensor molecule_object, name="tensor", resids=24-65+78-122, atoms="n+ca+c"
 # requires: PyMOL, numpy.
 
 from pymol.cgo import *
