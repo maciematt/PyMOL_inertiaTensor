@@ -9,9 +9,6 @@
 
 from pymol.cgo import *
 from pymol import cmd
-import sys
-import re
-import math
 import numpy
 
 
